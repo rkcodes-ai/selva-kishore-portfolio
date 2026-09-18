@@ -65,7 +65,7 @@ export const Hero: React.FC = () => {
 
               <Button
                 asLink
-                href="/Selva_Kishore_C_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Selva_Kishore_C_Resume.pdf`}
                 download="Selva_Kishore_C_Resume.pdf"
                 variant="secondary"
                 size="lg"

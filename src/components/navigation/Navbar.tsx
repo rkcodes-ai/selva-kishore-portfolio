@@ -79,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           {/* Resume Download CTA */}
           <Button
             asLink
-            href="/Selva_Kishore_C_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Selva_Kishore_C_Resume.pdf`}
             download="Selva_Kishore_C_Resume.pdf"
             variant="outline"
             size="sm"
@@ -129,7 +129,7 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           <div className="pt-2">
             <Button
               asLink
-              href="/Selva_Kishore_C_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Selva_Kishore_C_Resume.pdf`}
               download="Selva_Kishore_C_Resume.pdf"
               variant="primary"
               size="sm"

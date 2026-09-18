@@ -122,7 +122,7 @@ export const Contact: React.FC = () => {
 
             {/* Download Resume */}
             <a
-              href="/Selva_Kishore_C_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Selva_Kishore_C_Resume.pdf`}
               download="Selva_Kishore_C_Resume.pdf"
               className="p-4 rounded-xl bg-surface-elevated/40 border border-border-subtle hover:border-accent-cyan/50 hover:bg-surface-elevated transition-all group"
             >
